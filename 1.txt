@@ -1,1 +1,7 @@
-git nie jest trudny 
+public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("hello, what chemical solution do you need?");
+        String chemName = scanner.nextLine();
+        if (chemName.equals("HCl, HNO3, NH4J, MnCl2, (NH4)2SO4,"));
+        System.out.println("what volume do you need of " +  chemName + " 500 ml or 1000 ml");
+        Scanner scanner = new Scanner(System.in);
